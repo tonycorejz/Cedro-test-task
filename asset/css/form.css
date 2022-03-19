@@ -1,0 +1,178 @@
+form h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #21242E;
+  margin-bottom: 48px;
+}
+
+.field {
+  position: relative;
+  width: 544px;
+  margin-bottom: 24px;
+}
+
+form label {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(33, 36, 46, 0.4);
+  margin-bottom: 12px;
+}
+
+form input {
+  width: 100%;
+  height: 56px;
+  padding: 16px;
+  background-color: #F7F7F7;
+  border: none;
+  border-radius: 4px;
+  color: #21242E;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  outline: none;
+}
+
+form input::-webkit-input-placeholder {
+  color: rgba(33, 36, 46, 0.4);
+}
+
+form input:hover::-webkit-input-placeholder {
+  color: rgba(33, 36, 46, 0.8)
+}
+
+form .wrong ~ input::-webkit-input-placeholder {
+  color: #DA7070;
+}
+
+form input.correct::-webkit-input-placeholder {
+  color: #D0BC7A;
+}
+ 
+form input:-moz-placeholder { 
+  color: rgba(33, 36, 46, 0.4);
+  opacity: 1;
+}
+
+form input:hover:-moz-placeholder { 
+  color: rgba(33, 36, 46, 0.8);
+  opacity: 1;
+}
+
+form .wrong ~ input:-moz-placeholder  {
+  color: #DA7070;
+}
+
+form input.correct:-moz-placeholder  {
+  color: #D0BC7A;
+}
+ 
+form input::-moz-placeholder { 
+  color: rgba(33, 36, 46, 0.4);
+  opacity: 1;
+}
+
+form input:hover::-moz-placeholder { 
+  color: rgba(33, 36, 46, 0.8);
+  opacity: 1;
+}
+
+form .wrong ~ input::-moz-placeholder {
+  color: #DA7070;
+}
+
+form input.correct::-moz-placeholder {
+  color: #D0BC7A;
+}
+ 
+form input:-ms-input-placeholder { 
+  color: rgba(33, 36, 46, 0.4);
+}
+
+form input:hover:-ms-input-placeholder { 
+  color: rgba(33, 36, 46, 0.8);
+}
+
+form .wrong ~ input:-ms-input-placeholder {
+  color: #DA7070;
+}
+
+form input.correct:-ms-input-placeholder {
+  color: #D0BC7A;
+}
+ 
+form input::-ms-input-placeholder { 
+  color: rgba(33, 36, 46, 0.4);
+}
+
+form input:hover::-ms-input-placeholder { 
+  color: rgba(33, 36, 46, 0.8);
+}
+
+form .wrong ~ input::-ms-input-placeholder {
+  color: #DA7070;
+}
+
+form input.correct::-ms-input-placeholder {
+  color: #D0BC7A;
+}
+
+form input::placeholder { 
+  color: rgba(33, 36, 46, 0.4);
+}
+
+form input:hover::placeholder { 
+  color: rgba(33, 36, 46, 0.8);
+}
+
+form .wrong ~ input::placeholder {
+  color: #DA7070;
+}
+
+form input.correct::placeholder {
+  color: #D0BC7A;
+}
+
+.wrong {
+  position: absolute;
+  bottom: -18px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #DA7070;
+}
+
+form .wrong ~ input {
+  color: #DA7070;
+}
+
+form input.correct {
+  color: #D0BC7A;
+}
+
+.password-visibility {
+  position: absolute;
+  cursor: pointer;
+  right: 23px;
+  bottom: 16px;
+}
+
+.password-visibility {
+  opacity: 0.4;
+}
+
+.password-visibility:hover {
+  opacity: 1;
+}
+
+form .sbmt-button {
+  width: 230px;
+  height: 56px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  background-color: #21242E;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}

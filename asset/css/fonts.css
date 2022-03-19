@@ -1,0 +1,336 @@
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms/TTNorms-Bold.eot');
+  src: local('TT Norms Bold'), local('../fonts/TTNorms/TTNorms-Bold'),
+      url('../fonts/TTNorms/TTNorms-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTNorms/TTNorms-Bold.woff2') format('woff2'),
+      url('../fonts/TTNorms/TTNorms-Bold.woff') format('woff'),
+      url('../fonts/TTNorms/TTNorms-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms/TTNorms-ThinItalic.eot');
+  src: local('TT Norms Thin Italic'), local('../fonts/TTNorms/TTNorms-ThinItalic'),
+      url('../fonts/TTNorms/TTNorms-ThinItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTNorms/TTNorms-ThinItalic.woff2') format('woff2'),
+      url('../fonts/TTNorms/TTNorms-ThinItalic.woff') format('woff'),
+      url('../fonts/TTNorms/TTNorms-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms/TTNorms-Thin.eot');
+  src: local('TT Norms Thin'), local('../fonts/TTNorms/TTNorms-Thin'),
+      url('../fonts/TTNorms/TTNorms-Thin.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTNorms/TTNorms-Thin.woff2') format('woff2'),
+      url('../fonts/TTNorms/TTNorms-Thin.woff') format('woff'),
+      url('../fonts/TTNorms/TTNorms-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms/TTNorms-LightItalic.eot');
+  src: local('TT Norms Light Italic'), local('../fonts/TTNorms/TTNorms-LightItalic'),
+      url('../fonts/TTNorms/TTNorms-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTNorms/TTNorms-LightItalic.woff2') format('woff2'),
+      url('../fonts/TTNorms/TTNorms-LightItalic.woff') format('woff'),
+      url('../fonts/TTNorms/TTNorms-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms/TTNorms-ExtraBoldItalic.eot');
+  src: local('TT Norms ExtraBold Italic'), local('../fonts/TTNorms/TTNorms-ExtraBoldItalic'),
+      url('../fonts/TTNorms/TTNorms-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTNorms/TTNorms-ExtraBoldItalic.woff2') format('woff2'),
+      url('../fonts/TTNorms/TTNorms-ExtraBoldItalic.woff') format('woff'),
+      url('../fonts/TTNorms/TTNorms-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms/TTNorms-Italic.eot');
+  src: local('TT Norms Italic'), local('../fonts/TTNorms/TTNorms-Italic'),
+      url('../fonts/TTNorms/TTNorms-Italic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTNorms/TTNorms-Italic.woff2') format('woff2'),
+      url('../fonts/TTNorms/TTNorms-Italic.woff') format('woff'),
+      url('../fonts/TTNorms/TTNorms-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms/TTNorms-ExtraLight.eot');
+  src: local('TT Norms ExtraLight'), local('../fonts/TTNorms/TTNorms-ExtraLight'),
+      url('../fonts/TTNorms/TTNorms-ExtraLight.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTNorms/TTNorms-ExtraLight.woff2') format('woff2'),
+      url('../fonts/TTNorms/TTNorms-ExtraLight.woff') format('woff'),
+      url('../fonts/TTNorms/TTNorms-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms/TTNorms-HeavyItalic.eot');
+  src: local('TT Norms Heavy Italic'), local('../fonts/TTNorms/TTNorms-HeavyItalic'),
+      url('../fonts/TTNorms/TTNorms-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTNorms/TTNorms-HeavyItalic.woff2') format('woff2'),
+      url('../fonts/TTNorms/TTNorms-HeavyItalic.woff') format('woff'),
+      url('../fonts/TTNorms/TTNorms-HeavyItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms/TTNorms-MediumItalic.eot');
+  src: local('TT Norms Medium Italic'), local('../fonts/TTNorms/TTNorms-MediumItalic'),
+      url('../fonts/TTNorms/TTNorms-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTNorms/TTNorms-MediumItalic.woff2') format('woff2'),
+      url('../fonts/TTNorms/TTNorms-MediumItalic.woff') format('woff'),
+      url('../fonts/TTNorms/TTNorms-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms/TTNorms-BoldItalic.eot');
+  src: local('TT Norms Bold Italic'), local('../fonts/TTNorms/TTNorms-BoldItalic'),
+      url('../fonts/TTNorms/TTNorms-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTNorms/TTNorms-BoldItalic.woff2') format('woff2'),
+      url('../fonts/TTNorms/TTNorms-BoldItalic.woff') format('woff'),
+      url('../fonts/TTNorms/TTNorms-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms/TTNorms-Heavy.eot');
+  src: local('TT Norms Heavy'), local('../fonts/TTNorms/TTNorms-Heavy'),
+      url('../fonts/TTNorms/TTNorms-Heavy.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTNorms/TTNorms-Heavy.woff2') format('woff2'),
+      url('../fonts/TTNorms/TTNorms-Heavy.woff') format('woff'),
+      url('../fonts/TTNorms/TTNorms-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms/TTNorms-Light.eot');
+  src: local('TT Norms Light'), local('../fonts/TTNorms/TTNorms-Light'),
+      url('../fonts/TTNorms/TTNorms-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTNorms/TTNorms-Light.woff2') format('woff2'),
+      url('../fonts/TTNorms/TTNorms-Light.woff') format('woff'),
+      url('../fonts/TTNorms/TTNorms-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms/TTNorms-Medium.eot');
+  src: local('TT Norms Medium'), local('../fonts/TTNorms/TTNorms-Medium'),
+      url('../fonts/TTNorms/TTNorms-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTNorms/TTNorms-Medium.woff2') format('woff2'),
+      url('../fonts/TTNorms/TTNorms-Medium.woff') format('woff'),
+      url('../fonts/TTNorms/TTNorms-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms/TTNorms-ExtraBold.eot');
+  src: local('TT Norms ExtraBold'), local('../fonts/TTNorms/TTNorms-ExtraBold'),
+      url('../fonts/TTNorms/TTNorms-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTNorms/TTNorms-ExtraBold.woff2') format('woff2'),
+      url('../fonts/TTNorms/TTNorms-ExtraBold.woff') format('woff'),
+      url('../fonts/TTNorms/TTNorms-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms/TTNorms-ExtraLightItalic.eot');
+  src: local('TT Norms ExtraLight Italic'), local('../fonts/TTNorms/TTNorms-ExtraLightItalic'),
+      url('../fonts/TTNorms/TTNorms-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTNorms/TTNorms-ExtraLightItalic.woff2') format('woff2'),
+      url('../fonts/TTNorms/TTNorms-ExtraLightItalic.woff') format('woff'),
+      url('../fonts/TTNorms/TTNorms-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms/TTNorms-Regular.eot');
+  src: local('TT Norms Regular'), local('../fonts/TTNorms/TTNorms-Regular'),
+      url('../fonts/TTNorms/TTNorms-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTNorms/TTNorms-Regular.woff2') format('woff2'),
+      url('../fonts/TTNorms/TTNorms-Regular.woff') format('woff'),
+      url('../fonts/TTNorms/TTNorms-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms/TTNorms-BlackItalic.eot');
+  src: local('TT Norms Black Italic'), local('../fonts/TTNorms/TTNorms-BlackItalic'),
+      url('../fonts/TTNorms/TTNorms-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTNorms/TTNorms-BlackItalic.woff2') format('woff2'),
+      url('../fonts/TTNorms/TTNorms-BlackItalic.woff') format('woff'),
+      url('../fonts/TTNorms/TTNorms-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms/TTNorms-Black.eot');
+  src: local('TT Norms Black'), local('../fonts/TTNorms/TTNorms-Black'),
+      url('../fonts/TTNorms/TTNorms-Black.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTNorms/TTNorms-Black.woff2') format('woff2'),
+      url('../fonts/TTNorms/TTNorms-Black.woff') format('woff'),
+      url('../fonts/TTNorms/TTNorms-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF Regal Display Pro';
+  src: url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-BoldItalic.eot');
+  src: local('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-BoldItalic'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-BoldItalic.woff2') format('woff2'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-BoldItalic.woff') format('woff'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PF Regal Display Pro UBlack';
+  src: url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-UBlackItalic.eot');
+  src: local('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-UBlackItalic'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-UBlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-UBlackItalic.woff2') format('woff2'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-UBlackItalic.woff') format('woff'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-UBlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PF Regal Display Pro';
+  src: url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Medium.eot');
+  src: local('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Medium'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Medium.woff2') format('woff2'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Medium.woff') format('woff'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF Regal Display Pro';
+  src: url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Regular.eot');
+  src: local('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Regular'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Regular.woff2') format('woff2'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Regular.woff') format('woff'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF Regal Display Pro';
+  src: url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Black.eot');
+  src: local('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Black'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Black.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Black.woff2') format('woff2'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Black.woff') format('woff'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF Regal Display Pro UBlack';
+  src: url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-UBlack.eot');
+  src: local('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-UBlack'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-UBlack.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-UBlack.woff2') format('woff2'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-UBlack.woff') format('woff'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-UBlack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF Regal Display Pro';
+  src: url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-BlackItalic.eot');
+  src: local('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-BlackItalic'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-BlackItalic.woff2') format('woff2'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-BlackItalic.woff') format('woff'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PF Regal Display Pro';
+  src: url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Italic.eot');
+  src: local('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Italic'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Italic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Italic.woff2') format('woff2'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Italic.woff') format('woff'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PF Regal Display Pro';
+  src: url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Bold.eot');
+  src: local('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Bold'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Bold.woff2') format('woff2'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Bold.woff') format('woff'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF Regal Display Pro';
+  src: url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-MediumItalic.eot');
+  src: local('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-MediumItalic'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-MediumItalic.woff2') format('woff2'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-MediumItalic.woff') format('woff'),
+      url('../fonts/PFRegalDisplayPro/PFRegalDisplayPro-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CREDO</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="./favicons/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" type="text/css" href="./asset/lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./asset/css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="./asset/css/style.css">
+  <link rel="stylesheet" type="text/css" href="./asset/css/form.css">
+  <link rel="stylesheet" type="text/css" href="./asset/css/adaptive.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg header-h">
+      <div class="container-fluid max-width">
+        <a class="navbar-brand" href="./"><img src="./asset/images/Logo.svg" alt="Logo"></a>
+        <ul class="navbar-nav d-none d-lg-flex">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button">
+              Пигменты
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button">
+              ТОВАРЫ ДЛЯ ПМ
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">РЕМУВЕР</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">АКЦИИ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ОБУЧЕНИЕ</a>
+          </li>
+        </ul>
+        <div class="navbar-right d-flex flex-nowrap justify-content-between align-items-center">
+          <div class="phone"><a class="d-none d-sm-block" href="tel:88005553535">8 (800) 555-35-35</a></div>
+          <div class="header-icons d-flex flex-nowrap justify-content-between">
+            <div class="icon-container">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.88889 9.97618C10.98 9.03449 11.6667 7.666 11.6667 6.14286C11.6667 3.30254 9.27885 1 6.33333 1C3.38781 1 1 3.30254 1 6.14286C1 8.98318 3.38781 11.2857 6.33333 11.2857C7.6993 11.2857 8.94532 10.7905 9.88889 9.97618ZM9.88889 9.97618L13 13" stroke="#D0BC7A" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <div class="icon-container">
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.9205 2.06089C13.5784 1.72455 13.1722 1.45775 12.7252 1.27572C12.2782 1.09369 11.799 1 11.3151 1C10.8312 1 10.3521 1.09369 9.90504 1.27572C9.45801 1.45775 9.05185 1.72455 8.70976 2.06089L7.99982 2.75857L7.28988 2.06089C6.5989 1.38184 5.66172 1.00035 4.68453 1.00035C3.70733 1.00035 2.77016 1.38184 2.07917 2.06089C1.38819 2.73994 1 3.66092 1 4.62124C1 5.58157 1.38819 6.50255 2.07917 7.1816L2.78911 7.87928L7.99982 13L13.2105 7.87928L13.9205 7.1816C14.2627 6.84543 14.5342 6.44628 14.7194 6.00697C14.9047 5.56765 15 5.09678 15 4.62124C15 4.14571 14.9047 3.67484 14.7194 3.23552C14.5342 2.79621 14.2627 2.39706 13.9205 2.06089V2.06089Z" stroke="#D0BC7A" stroke-width="1.5"/>
+              </svg>
+              <div class="count-label">999</div>
+            </div>
+            <div class="icon-container">
+              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.46667 5.33333H2C1.44772 5.33333 1 5.78105 1 6.33333V13C1 13.5523 1.44772 14 2 14H13C13.5523 14 14 13.5523 14 13V6.33333C14 5.78105 13.5523 5.33333 13 5.33333H10.5333M4.46667 5.33333V8.36667M4.46667 5.33333H10.5333M4.46667 5.33333V4.03333C4.46667 2.35807 5.82474 1 7.5 1V1C9.17526 1 10.5333 2.35807 10.5333 4.03333V5.33333M10.5333 8.36667V5.33333" stroke="#D0BC7A" stroke-width="1.5"/>
+              </svg>
+              <div class="count-label">99</div>
+            </div>
+            <div class="icon-container">
+              <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.25023 4.40069C3.25023 2.92539 4.46955 1.70837 5.99983 1.70837C7.53011 1.70837 8.74943 2.92539 8.74943 4.40069C8.74943 5.87599 7.53011 7.093 5.99983 7.093C4.46955 7.093 3.25023 5.87599 3.25023 4.40069ZM5.99983 0.208374C3.66456 0.208374 1.75023 2.07371 1.75023 4.40069C1.75023 6.72766 3.66456 8.593 5.99983 8.593C8.3351 8.593 10.2494 6.72766 10.2494 4.40069C10.2494 2.07371 8.3351 0.208374 5.99983 0.208374ZM2.375 13.6657C2.375 12.1787 3.58039 10.9734 5.06731 10.9734H6.93168C8.4186 10.9734 9.624 12.1787 9.624 13.6657H11.124C11.124 11.3503 9.24703 9.47335 6.93168 9.47335H5.06731C2.75196 9.47335 0.875 11.3503 0.875 13.6657H2.375Z" fill="#D0BC7A"/>
+              </svg>
+            </div>
+          </div>
+          <div class="menu-toggler js-menu-popup-open" role="button"></div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="main-content">
+    <div class="page-container">
+      <div class="side-menu d-flex flex-xl-column align-items-end">
+        <ul class="sidebar-links">
+          <li><a class="nav-link active" href="#">Профиль</a></li>
+          <li><a class="nav-link" href="#">Мои заказы</a></li>
+          <li><a class="nav-link" href="#">Выход</a></li>
+        </ul>
+      </div>
+      <form class="profile-content d-flex flex-column">
+        <div class="profile-block">
+          <h1>Профиль</h1>
+        </div>
+        <div class="profile-block">
+          <h2 class="form-title">Данные профиля</h2>
+          <div class="field">
+            <label for="name">ФИО</label>
+            <input class="correct" id="name" type="text" placeholder="Ваше полное имя" /> <!-- Когда поле заполнено корректно, добавляем класс .correct к input --> 
+          </div>
+          <div class="field">
+            <div class="wrong">Это обязательное поле</div> <!-- Для указания ошибки, необходимо добавить div с классом .wrong в начало блока .field -->
+            <label for="mail">Почта</label>
+            <input id="mail" type="email" placeholder="Ваша почта" />
+          </div>
+          <div class="field">
+            <label for="phone">Телефон</label>
+            <input id="phone" type="tel" placeholder="Ваш телефон" />
+          </div>
+          <div class="field">
+            <label for="acc-name">Имя аккаунта</label>
+            <input id="acc-name" type="text" placeholder="Ваше имя аккаунта" />
+          </div>
+          <div class="field">
+            <label for="instagram">Профиль в инстаграм</label>
+            <input id="instagram" type="text" placeholder="Ваше профиль в инстаграмм" />
+          </div>
+          <div class="field">
+            <label for="address">Адрес доставки</label>
+            <input id="address" type="text" placeholder="Город, улица, дом" />
+          </div>
+        </div>
+        <div class="profile-block">
+          <h2 class="form-title">Изменить пароль</h2>
+          <div class="field">
+            <label for="password">ваш старый пароль</label>
+            <input class="correct" id="password" type="password" placeholder="Ваше полное имя" />
+            <svg class="password-visibility" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 7C15.7855 7 21 12 21 12C21 12 15.7855 17 12 17C8.21453 17 3 12 3 12C3 12 8.21453 7 12 7Z" stroke="#21242E" stroke-width="1.5"/>
+              <circle cx="12" cy="12" r="2" stroke="#21242E" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div class="field">
+            <div class="wrong">Это обязательное поле</div>
+            <label for="new-password">Новый пароль</label>
+            <input id="new-password" type="text" placeholder="Введите новый пароль" />
+            <svg class="password-visibility" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 7C15.7855 7 21 12 21 12C21 12 15.7855 17 12 17C8.21453 17 3 12 3 12C3 12 8.21453 7 12 7Z" stroke="#21242E" stroke-width="1.5"/>
+              <circle cx="12" cy="12" r="2" stroke="#21242E" stroke-width="1.5"/>
+              <path d="M5 19L19 5" stroke="#21242E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> <!-- Добавляем этот path к svg когда пароль показан (добавляет черту на глаз) -->
+            </svg>
+          </div>
+        </div>
+        <div class="profile-block">
+          <button type="submit" class="sbmt-button">Сохранить изменения</button>
+        </div>
+      </form>
+    </div>
+    <div class="trends container-fluid d-flex justify-content-between align-items-center flex-wrap">
+      <h3><span>Тренды</span> сезона</h3>
+      <div class="to-catalog"><a class="me-2" href="#">Перейти в каталог</a><img src="./asset/images/arrow-right.svg" alt="В каталог" /></div>
+      <div class="products-slider">
+        <div class="product-card">
+          <div class="product-image-container">
+            <img class="product-image" src="./asset/images/product-image.png" alt="Изображение товара"/>
+            <div class="product-label text-truncate">Salasdasdasdaddasesdfsdfds</div>
+            <svg class="to-wish-list active" width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15.8398 0C14.093 0 12.5616 0.778928 11.4113 2.25262C11.2579 2.44917 11.1212 2.64579 11 2.83623C10.8788 2.64575 10.7421 2.44917 10.5887 2.25262C9.43837 0.778928 7.90701 0 6.16016 0C2.8602 0 0.5 2.7631 0.5 6.07868C0.5 9.86988 3.60722 13.4429 10.575 17.664C10.7056 17.7431 10.8528 17.7827 11 17.7827C11.1472 17.7827 11.2944 17.7431 11.425 17.664C18.3928 13.443 21.5 9.86992 21.5 6.07872C21.5 2.76486 19.1417 0 15.8398 0Z" fill="#E4E4E4"/>
+            </svg>
+          </div>
+          <hr style="background: #C08D74;"/>
+          <div class="product-info">
+            <div class="product-name text-truncate">Brown to Blondesadasdasdasdsa</div>
+            <p class="product-description text-truncate">Пигмент для бровейasdasdasdasdasd</p>
+            <p class="product-description text-truncate mb-3">12 mlasdasdasdasdsad.</p>
+            <div class="d-flex flex-row flex-nowrap"><div class="price me-2 text-truncate">1 500 000 000 000 ₽</div><div class="old-price text-truncate">3 000 000 000 000 ₽</div></div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image-container">
+            <img class="product-image" src="./asset/images/product-image.png" alt="Изображение товара"/>
+            <div class="product-label text-truncate">Акция! 1+1=3</div>
+            <svg class="to-wish-list" width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15.8398 0C14.093 0 12.5616 0.778928 11.4113 2.25262C11.2579 2.44917 11.1212 2.64579 11 2.83623C10.8788 2.64575 10.7421 2.44917 10.5887 2.25262C9.43837 0.778928 7.90701 0 6.16016 0C2.8602 0 0.5 2.7631 0.5 6.07868C0.5 9.86988 3.60722 13.4429 10.575 17.664C10.7056 17.7431 10.8528 17.7827 11 17.7827C11.1472 17.7827 11.2944 17.7431 11.425 17.664C18.3928 13.443 21.5 9.86992 21.5 6.07872C21.5 2.76486 19.1417 0 15.8398 0Z" fill="#E4E4E4"/>
+            </svg>
+          </div>
+          <hr style="background: #EA976F;"/>
+          <div class="product-info">
+            <div class="product-name text-truncate">Brown to Blonde</div>
+            <p class="product-description text-truncate">Пигмент для бровей</p>
+            <p class="product-description text-truncate mb-3">12 ml.</p>
+            <div class="d-flex flex-row flex-nowrap"><div class="price text-truncate me-2">1 500 ₽</div><div class="old-price text-truncate">3 000 ₽</div></div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image-container">
+            <img class="product-image" src="./asset/images/product-image.png" alt="Изображение товара"/>
+            <div class="product-label text-truncate">Sale</div>
+            <svg class="to-wish-list" width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15.8398 0C14.093 0 12.5616 0.778928 11.4113 2.25262C11.2579 2.44917 11.1212 2.64579 11 2.83623C10.8788 2.64575 10.7421 2.44917 10.5887 2.25262C9.43837 0.778928 7.90701 0 6.16016 0C2.8602 0 0.5 2.7631 0.5 6.07868C0.5 9.86988 3.60722 13.4429 10.575 17.664C10.7056 17.7431 10.8528 17.7827 11 17.7827C11.1472 17.7827 11.2944 17.7431 11.425 17.664C18.3928 13.443 21.5 9.86992 21.5 6.07872C21.5 2.76486 19.1417 0 15.8398 0Z" fill="#E4E4E4"/>
+            </svg>
+          </div>
+          <hr style="background: #C07474;"/>
+          <div class="product-info">
+            <div class="product-name text-truncate">Brown to Blonde</div>
+            <p class="product-description text-truncate">Пигмент для бровей</p>
+            <p class="product-description text-truncate mb-3">12 ml.</p>
+            <div class="d-flex flex-row flex-nowrap"><div class="price text-truncate me-2">1 500 ₽</div><div class="old-price text-truncate">3 000 ₽</div></div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image-container">
+            <img class="product-image" src="./asset/images/product-image.png" alt="Изображение товара"/>
+            <div class="product-label text-truncate">Бесплатная доставка</div>
+            <svg class="to-wish-list" width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15.8398 0C14.093 0 12.5616 0.778928 11.4113 2.25262C11.2579 2.44917 11.1212 2.64579 11 2.83623C10.8788 2.64575 10.7421 2.44917 10.5887 2.25262C9.43837 0.778928 7.90701 0 6.16016 0C2.8602 0 0.5 2.7631 0.5 6.07868C0.5 9.86988 3.60722 13.4429 10.575 17.664C10.7056 17.7431 10.8528 17.7827 11 17.7827C11.1472 17.7827 11.2944 17.7431 11.425 17.664C18.3928 13.443 21.5 9.86992 21.5 6.07872C21.5 2.76486 19.1417 0 15.8398 0Z" fill="#E4E4E4"/>
+            </svg>
+          </div>
+          <hr style="background: #EA976F;"/>
+          <div class="product-info">
+            <div class="product-name text-truncate">Brown to Blonde</div>
+            <p class="product-description text-truncate">Пигмент для бровей</p>
+            <p class="product-description text-truncate mb-3">12 ml.</p>
+            <div class="d-flex flex-row flex-nowrap"><div class="price text-truncate me-2">1 500 ₽</div><div class="old-price text-truncate">3 000 ₽</div></div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image-container">
+            <img class="product-image" src="./asset/images/product-image.png" alt="Изображение товара"/>
+            <div class="product-label text-truncate">Sale</div>
+            <svg class="to-wish-list" width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15.8398 0C14.093 0 12.5616 0.778928 11.4113 2.25262C11.2579 2.44917 11.1212 2.64579 11 2.83623C10.8788 2.64575 10.7421 2.44917 10.5887 2.25262C9.43837 0.778928 7.90701 0 6.16016 0C2.8602 0 0.5 2.7631 0.5 6.07868C0.5 9.86988 3.60722 13.4429 10.575 17.664C10.7056 17.7431 10.8528 17.7827 11 17.7827C11.1472 17.7827 11.2944 17.7431 11.425 17.664C18.3928 13.443 21.5 9.86992 21.5 6.07872C21.5 2.76486 19.1417 0 15.8398 0Z" fill="#E4E4E4"/>
+            </svg>
+          </div>
+          <hr style="background: #C08D74;"/>
+          <div class="product-info">
+            <div class="product-name text-truncate">Brown to Blonde</div>
+            <p class="product-description text-truncate">Пигмент для бровей</p>
+            <p class="product-description text-truncate mb-3">12 ml.</p>
+            <div class="d-flex flex-row flex-nowrap"><div class="price text-truncate me-2">1 500 ₽</div><div class="old-price text-truncate">3 000 ₽</div></div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image-container">
+            <img class="product-image" src="./asset/images/product-image.png" alt="Изображение товара"/>
+            <div class="product-label text-truncate">Sale</div>
+            <svg class="to-wish-list" width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15.8398 0C14.093 0 12.5616 0.778928 11.4113 2.25262C11.2579 2.44917 11.1212 2.64579 11 2.83623C10.8788 2.64575 10.7421 2.44917 10.5887 2.25262C9.43837 0.778928 7.90701 0 6.16016 0C2.8602 0 0.5 2.7631 0.5 6.07868C0.5 9.86988 3.60722 13.4429 10.575 17.664C10.7056 17.7431 10.8528 17.7827 11 17.7827C11.1472 17.7827 11.2944 17.7431 11.425 17.664C18.3928 13.443 21.5 9.86992 21.5 6.07872C21.5 2.76486 19.1417 0 15.8398 0Z" fill="#E4E4E4"/>
+            </svg>
+          </div>
+          <hr style="background: #C07474;"/>
+          <div class="product-info">
+            <div class="product-name text-truncate">Brown to Blonde</div>
+            <p class="product-description text-truncate">Пигмент для бровей</p>
+            <p class="product-description text-truncate mb-3">12 ml.</p>
+            <div class="d-flex flex-row flex-nowrap"><div class="price text-truncate me-2">1 500 ₽</div><div class="old-price text-truncate">3 000 ₽</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container-fluid max-width">
+      <div class="footer-menu row">
+        <div class="col-12 col-md-6 col-lg-4 mb-40">
+          <div class="menu-title"><a href="#">Продукция</a></div>
+          <ul class="menu-links">
+            <li><p><a href="#">Пигменты</a></p></li>
+            <li><p><a href="#">Пигменты</a></p></li>
+            <li><p><a href="#">Аппараты</a></p></li>
+            <li><p><a href="#">Иглы</a></p></li>
+            <li><p><a href="#">Расходные материалы</a></p></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-40">
+          <div class="menu-title"><a href="#">Компания</a></div>
+          <ul class="menu-links">
+            <li><p><a href="#">Блог</a></p></li>
+            <li><p><a href="#">Обучение</a></p></li>
+            <li><p><a href="#">Стать представителем</a></p></li>
+            <li><p><a href="#">Контакты</a></p></li>
+            <li><p><a href="#">Политика конфиденциальности</a></p></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="menu-title"><a href="#">Контакты</a></div>
+          <ul class="menu-links menu-contacts">
+            <li>
+              <svg class="contact-icon" width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.95133 7.47489C6.68115 8.75704 7.74296 9.81885 9.02511 10.5487L9.71267 9.58578C9.82323 9.43095 9.98672 9.32202 10.1722 9.27959C10.3576 9.23717 10.5522 9.26419 10.7191 9.35556C11.8191 9.95672 13.0339 10.3183 14.2837 10.4164C14.4787 10.4319 14.6608 10.5203 14.7935 10.664C14.9263 10.8077 15 10.9962 15 11.1919V14.6623C15 14.8549 14.9286 15.0406 14.7996 15.1836C14.6706 15.3266 14.4931 15.4166 14.3016 15.4362C13.8893 15.479 13.474 15.5 13.0556 15.5C6.39778 15.5 1 10.1022 1 3.44444C1 3.026 1.021 2.61067 1.06378 2.19844C1.08342 2.00688 1.17343 1.82941 1.31639 1.70038C1.45935 1.57136 1.64509 1.49996 1.83767 1.5H5.30811C5.50377 1.49998 5.69225 1.5737 5.83597 1.70646C5.9797 1.83923 6.0681 2.02128 6.08356 2.21633C6.18173 3.46606 6.54328 4.68086 7.14444 5.78089C7.23581 5.94777 7.26283 6.14235 7.22041 6.32782C7.17798 6.51328 7.06905 6.67677 6.91422 6.78733L5.95133 7.47489ZM3.98978 6.96389L5.46756 5.90844C5.04816 5.00318 4.76083 4.04243 4.61433 3.05556H2.56333C2.55867 3.18467 2.55633 3.31456 2.55633 3.44444C2.55556 9.24356 7.25644 13.9444 13.0556 13.9444C13.1854 13.9444 13.3153 13.9421 13.4444 13.9367V11.8857C12.4576 11.7392 11.4968 11.4518 10.5916 11.0324L9.53611 12.5102C9.11118 12.3451 8.69845 12.1502 8.301 11.9269L8.25589 11.9012C6.73034 11.033 5.467 9.76966 4.59878 8.24411L4.57311 8.199C4.34982 7.80155 4.15489 7.38882 3.98978 6.96389Z" fill="white"/>
+              </svg>
+              <p><a href="tel:+78005553535">8 (800) 555-35-35</a></p>
+            </li>
+            <li>
+              <svg class="contact-icon" width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.00065 2.5H14.0007C14.1775 2.5 14.347 2.57024 14.4721 2.69526C14.5971 2.82029 14.6673 2.98986 14.6673 3.16667V13.8333C14.6673 14.0101 14.5971 14.1797 14.4721 14.3047C14.347 14.4298 14.1775 14.5 14.0007 14.5H2.00065C1.82384 14.5 1.65427 14.4298 1.52925 14.3047C1.40422 14.1797 1.33398 14.0101 1.33398 13.8333V3.16667C1.33398 2.98986 1.40422 2.82029 1.52925 2.69526C1.65427 2.57024 1.82384 2.5 2.00065 2.5ZM13.334 5.32533L8.04865 10.0587L2.66732 5.31067V13.1667H13.334V5.32533ZM3.00798 3.83333L8.04132 8.27467L13.002 3.83333H3.00798Z" fill="white"/>
+              </svg>
+              <p><a href="mailto:cedro@yandex.ru">cedro@yandex.ru</a></p>
+            </li>
+            <li>
+              <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 1.5C4.1402 1.5 1 4.6402 1 8.5C1 12.3598 4.1402 15.5 8 15.5C11.8598 15.5 15 12.3598 15 8.5C15 4.6402 11.8598 1.5 8 1.5ZM8 14.1C4.9123 14.1 2.4 11.5877 2.4 8.5C2.4 5.4123 4.9123 2.9 8 2.9C11.0877 2.9 13.6 5.4123 13.6 8.5C13.6 11.5877 11.0877 14.1 8 14.1Z" fill="white"/>
+                <path d="M8.125 5.375H6.875V8.75875L8.93313 10.8169L9.81687 9.93312L8.125 8.24125V5.375Z" fill="white"/>
+              </svg>              
+              <p>Время работы: пн - пт с 10 до 19 </p>
+            </li>
+            <li>
+              <svg class="contact-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.00126 9.33272C9.47193 9.33272 10.6679 8.13672 10.6679 6.66606C10.6679 5.19539 9.47193 3.99939 8.00126 3.99939C6.53059 3.99939 5.33459 5.19539 5.33459 6.66606C5.33459 8.13672 6.53059 9.33272 8.00126 9.33272ZM8.00126 5.33272C8.73659 5.33272 9.33459 5.93072 9.33459 6.66606C9.33459 7.40139 8.73659 7.99939 8.00126 7.99939C7.26593 7.99939 6.66793 7.40139 6.66793 6.66606C6.66793 5.93072 7.26593 5.33272 8.00126 5.33272Z" fill="white"/>
+                <path d="M7.61335 14.5427C7.72935 14.6254 7.86468 14.6667 8.00002 14.6667C8.13535 14.6667 8.27068 14.6254 8.38668 14.5427C8.58935 14.3994 13.3527 10.96 13.3334 6.66671C13.3334 3.72604 10.9407 1.33337 8.00002 1.33337C5.05935 1.33337 2.66668 3.72604 2.66668 6.66337C2.64735 10.96 7.41069 14.3994 7.61335 14.5427ZM8.00002 2.66671C10.206 2.66671 12 4.46071 12 6.67004C12.014 9.62871 9.07468 12.2854 8.00002 13.1567C6.92602 12.2847 3.98602 9.62737 4.00002 6.66671C4.00002 4.46071 5.79402 2.66671 8.00002 2.66671Z" fill="white"/>
+              </svg> 
+              <p><a href="#">г. Санкт-Петербург,<br/>м. Звездная</a></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr class="footer-stripe"/>
+      <div class="footer-text-style d-flex flex-wrap flex-row justify-content-between align-items-center py-4 py-xs-5">
+        <div class="d-flex flex-row justify-content-between my-2 pe-2">
+          <div class="social-icon">
+            <a href="#" target="_blank" rel="nofollow"><img src="./asset/images/vk.svg" alt="vk"/></a>
+          </div>
+          <div class="social-icon">
+            <a href="#" target="_blank" rel="nofollow"><img src="./asset/images/facebook.svg" alt="facebook"/></a>
+          </div>
+          <div class="social-icon">
+            <a href="#" target="_blank" rel="nofollow"><img src="./asset/images/instagram.svg" alt="instagram"/></a>
+          </div>
+        </div>
+        <p class="my-2 pe-2">© Cedro — все права защищены, 2020</p>
+        <p class="my-2"><a href="#" class="me-2" target="_blank" rel="nofollow">Сделано в Cedro</a> <img src="./asset/images/cedro-logo.svg" alt="Cedro логотип"></p>
+      </div>
+      <hr class="footer-stripe"/>
+      <div class="footer-text-style d-flex justify-content-center align-items-center py-5">
+        <p>
+          Обращаем ваше внимание на то, что данный интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 (2) Гражданского кодекса Российской Федерации. Для получения подробной информации о наличии и актуальной стоимости указанных на сайте услуг обращайтесь, пожалуйста, по телефонам клиник.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Для открытия попапа необходимо добавить класс "open" к классу menu-popup  -->
+  <div class="menu-popup transition_0_3">
+    <div class="container-fluid max-width d-flex justify-content-between align-items-center header-h">
+      <a class="navbar-brand" href="./"><img src="./asset/images/Logo.svg" alt="Logo"></a>
+      <div class="menu-toggler js-menu-popup-close" role="button"></div>
+    </div>
+
+    <div class="popup-container container-fluid max-width d-flex flex-column justify-content-center">
+      <div class="row py-5">
+        <div class="col-12 col-md-6 col-lg-4 mb-40">
+          <div class="menu-title"><a href="#">Продукция</a></div>
+          <ul class="menu-links">
+            <li><p><a href="#">Пигменты</a></p></li>
+            <li><p><a href="#">Пигменты</a></p></li>
+            <li><p><a href="#">Аппараты</a></p></li>
+            <li><p><a href="#">Иглы</a></p></li>
+            <li><p><a href="#">Расходные материалы</a></p></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-40">
+          <div class="menu-title"><a href="#">Компания</a></div>
+          <ul class="menu-links">
+            <li><p><a href="#">Блог</a></p></li>
+            <li><p><a href="#">Обучение</a></p></li>
+            <li><p><a href="#">Стать представителем</a></p></li>
+            <li><p><a href="#">Контакты</a></p></li>
+            <li><p><a href="#">Политика конфиденциальности</a></p></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-40">
+          <div class="menu-title"><a href="#">Контакты</a></div>
+          <ul class="menu-links menu-contacts">
+            <li>
+              <svg class="contact-icon" width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.95133 7.47489C6.68115 8.75704 7.74296 9.81885 9.02511 10.5487L9.71267 9.58578C9.82323 9.43095 9.98672 9.32202 10.1722 9.27959C10.3576 9.23717 10.5522 9.26419 10.7191 9.35556C11.8191 9.95672 13.0339 10.3183 14.2837 10.4164C14.4787 10.4319 14.6608 10.5203 14.7935 10.664C14.9263 10.8077 15 10.9962 15 11.1919V14.6623C15 14.8549 14.9286 15.0406 14.7996 15.1836C14.6706 15.3266 14.4931 15.4166 14.3016 15.4362C13.8893 15.479 13.474 15.5 13.0556 15.5C6.39778 15.5 1 10.1022 1 3.44444C1 3.026 1.021 2.61067 1.06378 2.19844C1.08342 2.00688 1.17343 1.82941 1.31639 1.70038C1.45935 1.57136 1.64509 1.49996 1.83767 1.5H5.30811C5.50377 1.49998 5.69225 1.5737 5.83597 1.70646C5.9797 1.83923 6.0681 2.02128 6.08356 2.21633C6.18173 3.46606 6.54328 4.68086 7.14444 5.78089C7.23581 5.94777 7.26283 6.14235 7.22041 6.32782C7.17798 6.51328 7.06905 6.67677 6.91422 6.78733L5.95133 7.47489ZM3.98978 6.96389L5.46756 5.90844C5.04816 5.00318 4.76083 4.04243 4.61433 3.05556H2.56333C2.55867 3.18467 2.55633 3.31456 2.55633 3.44444C2.55556 9.24356 7.25644 13.9444 13.0556 13.9444C13.1854 13.9444 13.3153 13.9421 13.4444 13.9367V11.8857C12.4576 11.7392 11.4968 11.4518 10.5916 11.0324L9.53611 12.5102C9.11118 12.3451 8.69845 12.1502 8.301 11.9269L8.25589 11.9012C6.73034 11.033 5.467 9.76966 4.59878 8.24411L4.57311 8.199C4.34982 7.80155 4.15489 7.38882 3.98978 6.96389Z" fill="white"/>
+              </svg>
+              <p><a href="tel:+78005553535">8 (800) 555-35-35</a></p>
+            </li>
+            <li>
+              <svg class="contact-icon" width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.00065 2.5H14.0007C14.1775 2.5 14.347 2.57024 14.4721 2.69526C14.5971 2.82029 14.6673 2.98986 14.6673 3.16667V13.8333C14.6673 14.0101 14.5971 14.1797 14.4721 14.3047C14.347 14.4298 14.1775 14.5 14.0007 14.5H2.00065C1.82384 14.5 1.65427 14.4298 1.52925 14.3047C1.40422 14.1797 1.33398 14.0101 1.33398 13.8333V3.16667C1.33398 2.98986 1.40422 2.82029 1.52925 2.69526C1.65427 2.57024 1.82384 2.5 2.00065 2.5ZM13.334 5.32533L8.04865 10.0587L2.66732 5.31067V13.1667H13.334V5.32533ZM3.00798 3.83333L8.04132 8.27467L13.002 3.83333H3.00798Z" fill="white"/>
+              </svg>
+              <p><a href="mailto:cedro@yandex.ru">cedro@yandex.ru</a></p>
+            </li>
+            <li>
+              <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 1.5C4.1402 1.5 1 4.6402 1 8.5C1 12.3598 4.1402 15.5 8 15.5C11.8598 15.5 15 12.3598 15 8.5C15 4.6402 11.8598 1.5 8 1.5ZM8 14.1C4.9123 14.1 2.4 11.5877 2.4 8.5C2.4 5.4123 4.9123 2.9 8 2.9C11.0877 2.9 13.6 5.4123 13.6 8.5C13.6 11.5877 11.0877 14.1 8 14.1Z" fill="white"/>
+                <path d="M8.125 5.375H6.875V8.75875L8.93313 10.8169L9.81687 9.93312L8.125 8.24125V5.375Z" fill="white"/>
+              </svg>              
+              <p>Время работы: пн - пт с 10 до 19 </p>
+            </li>
+            <li>
+              <svg class="contact-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.00126 9.33272C9.47193 9.33272 10.6679 8.13672 10.6679 6.66606C10.6679 5.19539 9.47193 3.99939 8.00126 3.99939C6.53059 3.99939 5.33459 5.19539 5.33459 6.66606C5.33459 8.13672 6.53059 9.33272 8.00126 9.33272ZM8.00126 5.33272C8.73659 5.33272 9.33459 5.93072 9.33459 6.66606C9.33459 7.40139 8.73659 7.99939 8.00126 7.99939C7.26593 7.99939 6.66793 7.40139 6.66793 6.66606C6.66793 5.93072 7.26593 5.33272 8.00126 5.33272Z" fill="white"/>
+                <path d="M7.61335 14.5427C7.72935 14.6254 7.86468 14.6667 8.00002 14.6667C8.13535 14.6667 8.27068 14.6254 8.38668 14.5427C8.58935 14.3994 13.3527 10.96 13.3334 6.66671C13.3334 3.72604 10.9407 1.33337 8.00002 1.33337C5.05935 1.33337 2.66668 3.72604 2.66668 6.66337C2.64735 10.96 7.41069 14.3994 7.61335 14.5427ZM8.00002 2.66671C10.206 2.66671 12 4.46071 12 6.67004C12.014 9.62871 9.07468 12.2854 8.00002 13.1567C6.92602 12.2847 3.98602 9.62737 4.00002 6.66671C4.00002 4.46071 5.79402 2.66671 8.00002 2.66671Z" fill="white"/>
+              </svg> 
+              <p><a href="#" target="_blank" rel="nofollow">г. Санкт-Петербург,<br/>м. Звездная</a></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./asset/lib/jQuery/jquery-3.6.0.min.js"></script>
+  <script src="./asset/lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./asset/js/script.js"></script>
+</body>
+
+</html>
