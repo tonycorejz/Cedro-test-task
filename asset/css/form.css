@@ -40,7 +40,7 @@ form input:hover::-webkit-input-placeholder {
   color: rgba(33, 36, 46, 0.8)
 }
 
-form .wrong ~ input::-webkit-input-placeholder {
+form input.non-correct::-webkit-input-placeholder {
   color: #DA7070;
 }
 
@@ -58,7 +58,7 @@ form input:hover:-moz-placeholder {
   opacity: 1;
 }
 
-form .wrong ~ input:-moz-placeholder  {
+form input.non-correct:-moz-placeholder  {
   color: #DA7070;
 }
 
@@ -76,7 +76,7 @@ form input:hover::-moz-placeholder {
   opacity: 1;
 }
 
-form .wrong ~ input::-moz-placeholder {
+form input.non-correct::-moz-placeholder {
   color: #DA7070;
 }
 
@@ -92,7 +92,7 @@ form input:hover:-ms-input-placeholder {
   color: rgba(33, 36, 46, 0.8);
 }
 
-form .wrong ~ input:-ms-input-placeholder {
+form input.non-correct:-ms-input-placeholder {
   color: #DA7070;
 }
 
@@ -108,7 +108,7 @@ form input:hover::-ms-input-placeholder {
   color: rgba(33, 36, 46, 0.8);
 }
 
-form .wrong ~ input::-ms-input-placeholder {
+form input.non-correct::-ms-input-placeholder {
   color: #DA7070;
 }
 
@@ -124,7 +124,7 @@ form input:hover::placeholder {
   color: rgba(33, 36, 46, 0.8);
 }
 
-form .wrong ~ input::placeholder {
+form input.non-correct::placeholder {
   color: #DA7070;
 }
 
@@ -141,7 +141,7 @@ form input.correct::placeholder {
   color: #DA7070;
 }
 
-form .wrong ~ input {
+form input.non-correct {
   color: #DA7070;
 }
 

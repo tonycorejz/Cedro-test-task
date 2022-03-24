@@ -8,6 +8,7 @@
   <title>CREDO</title>
   <link rel="icon" href="favicon.ico">
   <link rel="icon" href="./favicons/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" type="text/css" href="./asset/lib/OwlCarousel2-2.3.4/css/owl.carousel.min.css">
   <link rel="stylesheet" type="text/css" href="./asset/lib/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="./asset/css/fonts.css">
   <link rel="stylesheet" type="text/css" href="./asset/css/style.css">
@@ -88,61 +89,68 @@
         <div class="profile-block">
           <h2 class="form-title">Данные профиля</h2>
           <div class="field">
+            <div class="wrong"></div>
             <label for="name">ФИО</label>
-            <input class="correct" id="name" type="text" placeholder="Ваше полное имя" /> <!-- Когда поле заполнено корректно, добавляем класс .correct к input --> 
+            <input id="name" class="js-required" type="text" placeholder="Ваше полное имя" /> <!-- Когда поле заполнено корректно, добавляем класс .correct к input --> 
           </div>
           <div class="field">
-            <div class="wrong">Это обязательное поле</div> <!-- Для указания ошибки, необходимо добавить div с классом .wrong в начало блока .field -->
+            <div class="wrong"></div> <!-- Для указания ошибки, необходимо добавить div с классом .wrong в начало блока .field и добавить класс .non-correct к input -->
             <label for="mail">Почта</label>
-            <input id="mail" type="email" placeholder="Ваша почта" />
+            <input id="mail" class="js-email-valid" type="email" placeholder="Ваша почта" />
           </div>
           <div class="field">
+            <div class="wrong"></div>
             <label for="phone">Телефон</label>
-            <input id="phone" type="tel" placeholder="Ваш телефон" />
+            <input id="phone" class="js-phone js-phone-required" type="tel" placeholder="Ваш телефон" />
           </div>
           <div class="field">
+            <div class="wrong"></div>
             <label for="acc-name">Имя аккаунта</label>
-            <input id="acc-name" type="text" placeholder="Ваше имя аккаунта" />
+            <input id="acc-name" class="js-required" type="text" placeholder="Ваше имя аккаунта" />
           </div>
           <div class="field">
+            <div class="wrong"></div>
             <label for="instagram">Профиль в инстаграм</label>
-            <input id="instagram" type="text" placeholder="Ваше профиль в инстаграмм" />
+            <input id="instagram" class="js-required" type="text" placeholder="Ваше профиль в инстаграмм" />
           </div>
           <div class="field">
+            <div class="wrong"></div>
             <label for="address">Адрес доставки</label>
-            <input id="address" type="text" placeholder="Город, улица, дом" />
+            <input id="address" class="js-required" type="text" placeholder="Город, улица, дом" />
           </div>
         </div>
         <div class="profile-block">
           <h2 class="form-title">Изменить пароль</h2>
           <div class="field">
+            <div class="wrong"></div>
             <label for="password">ваш старый пароль</label>
-            <input class="correct" id="password" type="password" placeholder="Ваше полное имя" />
-            <svg class="password-visibility" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <input id="password" class="js-old-password" type="password" placeholder="Ваше полное имя" />
+            <svg class="password-visibility js-password-visibility" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 7C15.7855 7 21 12 21 12C21 12 15.7855 17 12 17C8.21453 17 3 12 3 12C3 12 8.21453 7 12 7Z" stroke="#21242E" stroke-width="1.5"/>
               <circle cx="12" cy="12" r="2" stroke="#21242E" stroke-width="1.5"/>
+              <path class="js-password-hidden d-none" d="M5 19L19 5" stroke="#21242E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </div>
           <div class="field">
-            <div class="wrong">Это обязательное поле</div>
+            <div class="wrong"></div>
             <label for="new-password">Новый пароль</label>
-            <input id="new-password" type="text" placeholder="Введите новый пароль" />
-            <svg class="password-visibility" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <input id="new-password" class="js-new-password" type="password" placeholder="Введите новый пароль" />
+            <svg class="password-visibility js-password-visibility" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 7C15.7855 7 21 12 21 12C21 12 15.7855 17 12 17C8.21453 17 3 12 3 12C3 12 8.21453 7 12 7Z" stroke="#21242E" stroke-width="1.5"/>
               <circle cx="12" cy="12" r="2" stroke="#21242E" stroke-width="1.5"/>
-              <path d="M5 19L19 5" stroke="#21242E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> <!-- Добавляем этот path к svg когда пароль показан (добавляет черту на глаз) -->
+              <path class="js-password-hidden d-none" d="M5 19L19 5" stroke="#21242E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> <!-- Добавляем этот path к svg когда пароль показан (добавляет черту на глаз) -->
             </svg>
           </div>
         </div>
         <div class="profile-block">
-          <button type="submit" class="sbmt-button">Сохранить изменения</button>
+          <button class="sbmt-button js-sbmt" type="submit">Сохранить изменения</button>
         </div>
       </form>
     </div>
     <div class="trends container-fluid d-flex justify-content-between align-items-center flex-wrap">
       <h3><span>Тренды</span> сезона</h3>
       <div class="to-catalog"><a class="me-2" href="#">Перейти в каталог</a><img src="./asset/images/arrow-right.svg" alt="В каталог" /></div>
-      <div class="products-slider">
+      <div class="owl-carousel products-slider">
         <div class="product-card">
           <div class="product-image-container">
             <img class="product-image" src="./asset/images/product-image.png" alt="Изображение товара"/>
@@ -392,6 +400,8 @@
   </div>
 
   <script src="./asset/lib/jQuery/jquery-3.6.0.min.js"></script>
+  <script src="./asset/lib/maskedinput-1.4.1/js/jquery.maskedinput.min.js"></script>
+  <script src="./asset/lib/OwlCarousel2-2.3.4/js/owl.carousel.min.js"></script>
   <script src="./asset/lib/bootstrap/js/bootstrap.min.js"></script>
   <script src="./asset/js/script.js"></script>
 </body>

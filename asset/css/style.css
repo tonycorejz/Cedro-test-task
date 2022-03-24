@@ -390,6 +390,10 @@ h3 span {
   overflow: hidden;
 }
 
+.owl-carousel .owl-item img {
+  width: auto;
+}
+
 .product-card hr {
   width: 100%;
   height: 12px;
